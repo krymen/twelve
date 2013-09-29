@@ -14,21 +14,21 @@ class CalcStatsSpec extends ObjectBehavior
 
     function it_should_calculate_minimum_value()
     {
-        $this->minimum(array(6, 9, 15, -2, 92, 11))->shouldReturn(-2);
+        $this->minimum([6, 9, 15, -2, 92, 11])->shouldBe(-2);
     }
 
     function it_should_calculate_maximium_value()
     {
-        $this->maximum(array(6, 9, 15, -2, 92, 11))->shouldReturn(92);
+        $this->maximum([6, 9, 15, -2, 92, 11])->shouldBe(92);
     }
 
     function it_should_calculate_number_of_elements_in_the_sequence()
     {
-        $this->count(array(6, 9, 15, -2, 92, 11))->shouldReturn(6);
+        $this->count([6, 9, 15, -2, 92, 11])->shouldBe(6);
     }
 
     function it_should_calculate_average_value()
     {
-        $this->average(array(6, 9, 15, -2, 92, 11))->shouldReturn(21.833333);
+        $this->average([6, 9, 15, -2, 92, 11])->shouldBe(21.833333);
     }
 }
