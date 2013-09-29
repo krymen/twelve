@@ -1,0 +1,19 @@
+{
+    "name": "krymen/twelve",
+    "description": "12 TDDs of Christmas by John Cleary (http://www.wiredtothemoon.com/2012/12/12-tdds-of-christmas/)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krzysztof Menżyk",
+            "email": "krzysztof@menzyk.net"
+        }
+    ],
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*@dev"
+    },
+    "autoload": {"psr-0": {"": "src"}},
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "dev"
+}
